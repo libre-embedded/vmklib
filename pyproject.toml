@@ -4,21 +4,22 @@ build-backend = "setuptools.build_meta:__legacy__"
 
 [project]
 name = "vmklib"
-version = "2.0.5"
+version = "2.0.6"
 description = "Simplify project workflows by standardizing use of GNU Make."
 readme = "README.md"
 requires-python = ">=3.12"
-license = {file = "LICENSE"}
+license = "MIT"
+license-files = ["LICENSE"]
 keywords = [
   "workflow",
   "tool",
   "make"
 ]
 authors = [
-  {name = "Vaughn Kottler", email = "vaughn@libre-embedded.com"}
+  {name = "Libre Embedded", email = "vaughn@libre-embedded.com"}
 ]
 maintainers = [
-  {name = "Vaughn Kottler", email = "vaughn@libre-embedded.com"}
+  {name = "Libre Embedded", email = "vaughn@libre-embedded.com"}
 ]
 classifiers = [
   "Topic :: Software Development :: Build Tools",
@@ -28,8 +29,7 @@ classifiers = [
   "Operating System :: MacOS",
   "Operating System :: POSIX :: Linux",
   "Operating System :: Unix",
-  "Development Status :: 5 - Production/Stable",
-  "License :: OSI Approved :: MIT License"
+  "Development Status :: 5 - Production/Stable"
 ]
 dynamic = ["dependencies"]
 

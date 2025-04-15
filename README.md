@@ -1,29 +1,22 @@
 <!--
     =====================================
     generator=datazen
-    version=3.1.4
-    hash=6b34cd9966ea5866b40e45651045cb02
+    version=3.2.1
+    hash=634db905318b70517cb2c780098e6a01
     =====================================
 -->
 
-# vmklib ([2.0.5](https://pypi.org/project/vmklib/))
+# vmklib ([2.0.6](https://pypi.org/project/vmklib/))
 
 [![python](https://img.shields.io/pypi/pyversions/vmklib.svg)](https://pypi.org/project/vmklib/)
-![Build Status](https://github.com/vkottler/vmklib/workflows/Python%20Package/badge.svg)
-[![codecov](https://codecov.io/gh/vkottler/vmklib/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/vkottler/vmklib)
+![Build Status](https://github.com/libre-embedded/vmklib/workflows/Python%20Package/badge.svg)
+[![codecov](https://codecov.io/gh/libre-embedded/vmklib/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/libre-embedded/vmklib)
 ![PyPI - Status](https://img.shields.io/pypi/status/vmklib)
 ![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/pypi/vmklib)
 
 *Simplify project workflows by standardizing use of GNU Make.*
 
-## Documentation
-
-### Generated
-
-* By [sphinx-apidoc](https://vkottler.github.io/python/sphinx/vmklib)
-(What's [`sphinx-apidoc`](https://www.sphinx-doc.org/en/master/man/sphinx-apidoc.html)?)
-* By [pydoc](https://vkottler.github.io/python/pydoc/vmklib.html)
-(What's [`pydoc`](https://docs.python.org/3/library/pydoc.html)?)
+([interface documentation](https://libre-embedded.github.io/python/vmklib))
 
 ## Python Version Support
 

@@ -1,5 +1,5 @@
-""""
-vmklib - Shared test utilities.
+"""
+Shared test utilities.
 """
 
 # built-in
