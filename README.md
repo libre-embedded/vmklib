@@ -1,12 +1,12 @@
 <!--
     =====================================
     generator=datazen
-    version=3.2.1
-    hash=634db905318b70517cb2c780098e6a01
+    version=3.2.3
+    hash=c2b4e4ec417da8053aab0e2e7d6d2e53
     =====================================
 -->
 
-# vmklib ([2.0.6](https://pypi.org/project/vmklib/))
+# vmklib ([2.0.7](https://pypi.org/project/vmklib/))
 
 [![python](https://img.shields.io/pypi/pyversions/vmklib.svg)](https://pypi.org/project/vmklib/)
 ![Build Status](https://github.com/libre-embedded/vmklib/workflows/Python%20Package/badge.svg)
@@ -15,6 +15,8 @@
 ![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/pypi/vmklib)
 
 *Simplify project workflows by standardizing use of GNU Make.*
+
+Consider [sponsoring development](https://github.com/sponsors/libre-embedded).
 
 ([interface documentation](https://libre-embedded.github.io/python/vmklib))
 
