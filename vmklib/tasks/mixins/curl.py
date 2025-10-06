@@ -37,6 +37,8 @@ class CurlMixin(SubprocessLogMixin):
         post_data: Dict[str, Any] = None,
         headers: Dict[str, str] = None,
         method: str = None,
+        entry: str = "curl",
+        log: bool = True,
     ) -> CommandResult:
         """Run a curl command."""
 
@@ -56,7 +58,7 @@ class CurlMixin(SubprocessLogMixin):
 
         proc, stdout, stderr = await handle_process_cancel(
             await self.subprocess_exec(
-                "curl",
+                entry,
                 *extra_args,
                 *args,
                 stdout=subprocess.PIPE,
@@ -70,4 +72,17 @@ class CurlMixin(SubprocessLogMixin):
         assert stdout is not None
         assert stderr is not None
 
-        return CommandResult(proc.returncode, stdout.decode(), stderr.decode())
+        result = proc.returncode
+        stdout_str = stdout.decode()
+        stderr_str = stderr.decode()
+
+        if log:
+            self.logger.info(
+                "%s result (%d) stdout='%s' stderr='%s'",
+                entry,
+                result,
+                stdout_str,
+                stderr_str,
+            )
+
+        return CommandResult(result, stdout_str, stderr_str)

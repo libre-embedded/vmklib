@@ -2,11 +2,11 @@
     =====================================
     generator=datazen
     version=3.2.3
-    hash=c2b4e4ec417da8053aab0e2e7d6d2e53
+    hash=29f6b80b39ead62703679a7a6d9766e2
     =====================================
 -->
 
-# vmklib ([2.0.7](https://pypi.org/project/vmklib/))
+# vmklib ([2.0.8](https://pypi.org/project/vmklib/))
 
 [![python](https://img.shields.io/pypi/pyversions/vmklib.svg)](https://pypi.org/project/vmklib/)
 ![Build Status](https://github.com/libre-embedded/vmklib/workflows/Python%20Package/badge.svg)
@@ -63,7 +63,7 @@ else with simple package updates.
 # Command-line Options
 
 ```
-$ ./venv3.12/bin/mk -h
+$ ./venv3.13/bin/mk -h
 
 usage: mk [-h] [--version] [-v] [-q] [--curses] [--no-uvloop] [-C DIR]
           [-p PREFIX] [-d] [-D DEFAULT] [-f FILE] [-c CONFIG] [-P PROJ]
@@ -81,21 +81,19 @@ options:
   -q, --quiet           set to reduce output
   --curses              whether or not to use curses.wrapper when starting
   --no-uvloop           whether or not to disable uvloop as event loop driver
-  -C DIR, --dir DIR     execute from a specific directory
-  -p PREFIX, --prefix PREFIX
-                        a prefix to apply to all targets
+  -C, --dir DIR         execute from a specific directory
+  -p, --prefix PREFIX   a prefix to apply to all targets
   -d, --disable-make    whether or not to allow GNU Make target resolution
                         (default: 'False')
-  -D DEFAULT, --default DEFAULT
+  -D, --default DEFAULT
                         default target to make if none is specified (default:
                         'all')
-  -f FILE, --file FILE  file to source user-provided recipes from (default:
+  -f, --file FILE       file to source user-provided recipes from (default:
                         'Makefile')
-  -c CONFIG, --config CONFIG
-                        file to source user-provided variable definitions,
+  -c, --config CONFIG   file to source user-provided variable definitions,
                         ahead of loading package makefiles (default:
                         'vmklib.json')
-  -P PROJ, --proj PROJ  project name for internal variable use
+  -P, --proj PROJ       project name for internal variable use
 
 ```
 
