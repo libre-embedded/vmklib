@@ -5,11 +5,11 @@ description: "Simplify project workflows by standardizing use of GNU Make."
 entry: {{entry}}
 
 requirements:
-  - vcorelib>=3.4.3
+  - vcorelib>=3.6.7
 
   # Adding this dependency simplifies project-specific workflow integrations
   # that leverage interfaces from this package.
-  - experimental-lowqa
+  - experimental-lowqa>=0.1.12
 
 dev_requirements:
   - pytest-asyncio
