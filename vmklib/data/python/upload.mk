@@ -14,8 +14,8 @@ $(PY_PREFIX)upload: $(PY_PREFIX)all | $(TWINE_CONC)
 		$(PYTHON_BIN)/twine upload $(TWINE_ARGS) dist/*
 
 # removed $(PY_BUILD_CONC), don't re-build (assume built)
+# rm $<
 $(PY_PREFIX)upload-only: | $(TWINE_CONC)
 	cd $($(PROJ)_DIR) && \
 		$(PYTHON_BIN)/twine check dist/* && \
 		$(PYTHON_BIN)/twine upload $(TWINE_ARGS) dist/*
-	rm $<

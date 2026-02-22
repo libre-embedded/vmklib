@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.2.3
-    hash=ec26b57d17ffb626c0d2fb23fc8237eb
+    hash=7989dbaedfe2cb147fb16c8788539838
     =====================================
 -->
 
@@ -24,8 +24,8 @@ Consider [sponsoring development](https://github.com/sponsors/libre-embedded).
 
 This package is tested with the following Python minor versions:
 
-* [`python3.12`](https://docs.python.org/3.12/)
 * [`python3.13`](https://docs.python.org/3.13/)
+* [`python3.14`](https://docs.python.org/3.14/)
 
 ## Platform Support
 
