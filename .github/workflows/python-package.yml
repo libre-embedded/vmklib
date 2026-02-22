@@ -42,15 +42,15 @@ jobs:
 
       - run: mk python-sa-types
 
+      - run: mk docs version=2.0.11
+        if: |
+          matrix.python-version == '3.14'
+          && matrix.system == 'ubuntu-latest'
+
       - name: lint and build
         run: mk python-lint python-sa yaml python-build-once
         env:
           PY_LINT_MYPY_EXTRA_ARGS: --no-incremental
-
-      - run: mk docs version=2.0.10
-        if: |
-          matrix.python-version == '3.14'
-          && matrix.system == 'ubuntu-latest'
 
       - run: mk python-test
         env:
@@ -74,7 +74,7 @@ jobs:
 
       - run: |
           mk python-release owner=libre-embedded \
-                            repo=vmklib version=2.0.10
+                            repo=vmklib version=2.0.11
         if: |
           matrix.python-version == '3.14'
           && matrix.system == 'ubuntu-latest'
