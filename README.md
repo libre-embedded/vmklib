@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.2.3
-    hash=4d7f857bb310dc973d282f318d6634a5
+    hash=840dae6ff36d11c17a8245212897c333
     =====================================
 -->
 
@@ -48,17 +48,6 @@ tasks when building software. This package intends to aggregate recipes
 integrated into a project without re-building this infrastructure. Lessons
 learned and improvements in each project can be back-propagated everywhere
 else with simple package updates.
-
-## Quick Links
-
-* [datazen](#datazen)
-* [grip](#grip)
-* [pypi](#pypi)
-* [python](#python)
-* [venv](#venv)
-* [vmklib](#vmklib)
-* [yaml](#yaml)
-* [Dependency Graph](#dependency-graph)
 
 # Command-line Options
 
