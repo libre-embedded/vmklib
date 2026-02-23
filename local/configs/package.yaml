@@ -9,7 +9,7 @@ requirements:
 
   # Adding this dependency simplifies project-specific workflow integrations
   # that leverage interfaces from this package.
-  - experimental-lowqa>=0.1.12
+  - experimental-lowqa>=0.2.1
 
 dev_requirements:
   - pytest-asyncio
