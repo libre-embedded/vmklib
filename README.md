@@ -2,11 +2,11 @@
     =====================================
     generator=datazen
     version=3.2.3
-    hash=4f511a6c30ac02e87798ca5ac4bd5f94
+    hash=840dae6ff36d11c17a8245212897c333
     =====================================
 -->
 
-# vmklib ([2.0.11](https://pypi.org/project/vmklib/))
+# vmklib ([2.0.12](https://pypi.org/project/vmklib/))
 
 [![python](https://img.shields.io/pypi/pyversions/vmklib.svg)](https://pypi.org/project/vmklib/)
 ![Build Status](https://github.com/libre-embedded/vmklib/workflows/Python%20Package/badge.svg)
@@ -48,17 +48,6 @@ tasks when building software. This package intends to aggregate recipes
 integrated into a project without re-building this infrastructure. Lessons
 learned and improvements in each project can be back-propagated everywhere
 else with simple package updates.
-
-## Quick Links
-
-* [datazen](#datazen)
-* [grip](#grip)
-* [pypi](#pypi)
-* [python](#python)
-* [venv](#venv)
-* [vmklib](#vmklib)
-* [yaml](#yaml)
-* [Dependency Graph](#dependency-graph)
 
 # Command-line Options
 
